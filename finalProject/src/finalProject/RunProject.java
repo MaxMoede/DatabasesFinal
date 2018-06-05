@@ -13,7 +13,7 @@ public class RunProject {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/music?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useConfigs=maxPerformance&useSSL=false&serverTimezone=UTC", "root", "happify132413");
 			Statement stmt = conn.createStatement();
-			String query = "SELECT * from words W WHERE W.word = 'aaah';";
+			String query = "SELECT * from lyrics L WHERE L.word = 'understand';";
 			ResultSet rs = stmt.executeQuery(query);
 			while (rs.next()){
 				String someString = rs.getString("word");
