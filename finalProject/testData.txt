@@ -1,0 +1,3 @@
+3 : hello 
+10 : hola 
+15 : ustedes
