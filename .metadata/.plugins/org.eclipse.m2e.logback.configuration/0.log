@@ -1,1 +1,453 @@
 2018-06-04 16:41:25,030 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-06-04 17:25:22,855 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: finalProject:finalProject:0.0.1-SNAPSHOT @ /Users/max/Documents/365/final/finalProject/pom.xml.
+2018-06-04 17:25:23,380 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-04 17:25:23,396 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-04 17:25:23,404 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-04 17:25:23,406 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-04 17:25:23,560 [Worker-26] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /finalProject/src
+2018-06-04 17:25:23,574 [Worker-26] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /finalProject/src/test/java because it overlaps with /finalProject/src
+2018-06-04 17:25:23,831 [Worker-26] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-06-04 17:25:24,695 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: finalProject:finalProject:0.0.1-SNAPSHOT @ /Users/max/Documents/365/final/finalProject/pom.xml.
+2018-06-04 17:25:25,178 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-04 17:25:25,180 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-04 17:25:25,182 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-04 17:25:25,183 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-04 17:25:25,203 [Worker-26] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /finalProject/src
+2018-06-04 17:25:25,204 [Worker-26] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /finalProject/src/test/java because it overlaps with /finalProject/src
+2018-06-04 17:25:25,328 [Worker-26] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2018-06-04 17:25:26,225 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-04 17:25:26,226 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-04 17:25:26,228 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-04 17:25:26,229 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-04 17:30:21,379 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: finalProject:finalProject:0.0.1-SNAPSHOT @ /Users/max/Documents/365/final/finalProject/pom.xml.
+2018-06-04 17:30:43,960 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/kennycason/kumo/1.5/kumo-1.5.pom
+2018-06-04 17:30:44,095 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/kennycason/kumo/1.5/kumo-1.5.pom
+2018-06-04 17:30:44,116 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/googlecode/lambdaj/lambdaj/2.3.3/lambdaj-2.3.3.pom
+2018-06-04 17:30:44,138 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/googlecode/lambdaj/lambdaj/2.3.3/lambdaj-2.3.3.pom
+2018-06-04 17:30:44,149 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-all/1.1/hamcrest-all-1.1.pom
+2018-06-04 17:30:44,167 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-all/1.1/hamcrest-all-1.1.pom
+2018-06-04 17:30:44,195 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/cglib/cglib-nodep/2.2/cglib-nodep-2.2.pom
+2018-06-04 17:30:44,209 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/cglib/cglib-nodep/2.2/cglib-nodep-2.2.pom
+2018-06-04 17:30:44,253 [Worker-30] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: finalProject:finalProject:0.0.1-SNAPSHOT @ /Users/max/Documents/365/final/finalProject/pom.xml.
+2018-06-04 17:30:44,263 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.8.2/jsoup-1.8.2.pom
+2018-06-04 17:30:44,319 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.8.2/jsoup-1.8.2.pom
+2018-06-04 17:30:44,344 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/davidmoten/rtree/0.7.5/rtree-0.7.5.pom
+2018-06-04 17:30:44,416 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/davidmoten/rtree/0.7.5/rtree-0.7.5.pom
+2018-06-04 17:30:44,429 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/davidmoten/sonatype-parent/0.1/sonatype-parent-0.1.pom
+2018-06-04 17:30:44,433 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/davidmoten/rtree/0.7.5/rtree-0.7.5.pom
+2018-06-04 17:30:44,451 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/davidmoten/sonatype-parent/0.1/sonatype-parent-0.1.pom
+2018-06-04 17:30:44,457 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/davidmoten/rtree/0.7.5/rtree-0.7.5.pom
+2018-06-04 17:30:44,466 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/davidmoten/guava-mini/0.1/guava-mini-0.1.pom
+2018-06-04 17:30:44,478 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/davidmoten/guava-mini/0.1/guava-mini-0.1.pom
+2018-06-04 17:30:44,482 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/davidmoten/guava-mini/0.1/guava-mini-0.1.pom
+2018-06-04 17:30:44,484 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/davidmoten/guava-mini/0.1/guava-mini-0.1.pom
+2018-06-04 17:30:44,499 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/reactivex/rxjava/1.1.1/rxjava-1.1.1.pom
+2018-06-04 17:30:44,499 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/reactivex/rxjava/1.1.1/rxjava-1.1.1.pom
+2018-06-04 17:30:44,517 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/reactivex/rxjava/1.1.1/rxjava-1.1.1.pom
+2018-06-04 17:30:44,520 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/reactivex/rxjava/1.1.1/rxjava-1.1.1.pom
+2018-06-04 17:30:44,533 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/languagetool/language-en/2.5/language-en-2.5.pom
+2018-06-04 17:30:44,533 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/languagetool/language-en/2.5/language-en-2.5.pom
+2018-06-04 17:30:44,550 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/languagetool/language-en/2.5/language-en-2.5.pom
+2018-06-04 17:30:44,551 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/languagetool/language-en/2.5/language-en-2.5.pom
+2018-06-04 17:30:44,562 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/languagetool/languagetool-parent/2.5/languagetool-parent-2.5.pom
+2018-06-04 17:30:44,564 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/languagetool/languagetool-parent/2.5/languagetool-parent-2.5.pom
+2018-06-04 17:30:44,576 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/languagetool/languagetool-parent/2.5/languagetool-parent-2.5.pom
+2018-06-04 17:30:44,577 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/languagetool/languagetool-parent/2.5/languagetool-parent-2.5.pom
+2018-06-04 17:30:44,699 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/languagetool/languagetool-core/2.5/languagetool-core-2.5.pom
+2018-06-04 17:30:44,717 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/languagetool/languagetool-core/2.5/languagetool-core-2.5.pom
+2018-06-04 17:30:44,725 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/languagetool/languagetool-core/2.5/languagetool-core-2.5.pom
+2018-06-04 17:30:44,738 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/languagetool/languagetool-core/2.5/languagetool-core-2.5.pom
+2018-06-04 17:30:44,758 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/carrot2/morfologik-fsa/1.9.0/morfologik-fsa-1.9.0.pom
+2018-06-04 17:30:44,759 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/carrot2/morfologik-fsa/1.9.0/morfologik-fsa-1.9.0.pom
+2018-06-04 17:30:44,791 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/carrot2/morfologik-fsa/1.9.0/morfologik-fsa-1.9.0.pom
+2018-06-04 17:30:44,799 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/carrot2/morfologik-fsa/1.9.0/morfologik-fsa-1.9.0.pom
+2018-06-04 17:30:44,807 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/carrot2/morfologik-parent/1.9.0/morfologik-parent-1.9.0.pom
+2018-06-04 17:30:44,813 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/carrot2/morfologik-parent/1.9.0/morfologik-parent-1.9.0.pom
+2018-06-04 17:30:44,824 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/carrot2/morfologik-parent/1.9.0/morfologik-parent-1.9.0.pom
+2018-06-04 17:30:44,829 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/carrot2/morfologik-parent/1.9.0/morfologik-parent-1.9.0.pom
+2018-06-04 17:30:44,839 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/carrot2/morfologik-speller/1.9.0/morfologik-speller-1.9.0.pom
+2018-06-04 17:30:44,843 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/carrot2/morfologik-speller/1.9.0/morfologik-speller-1.9.0.pom
+2018-06-04 17:30:44,854 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/carrot2/morfologik-speller/1.9.0/morfologik-speller-1.9.0.pom
+2018-06-04 17:30:44,858 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/carrot2/morfologik-speller/1.9.0/morfologik-speller-1.9.0.pom
+2018-06-04 17:30:44,868 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/carrot2/morfologik-stemming/1.9.0/morfologik-stemming-1.9.0.pom
+2018-06-04 17:30:44,870 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/carrot2/morfologik-stemming/1.9.0/morfologik-stemming-1.9.0.pom
+2018-06-04 17:30:44,889 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/carrot2/morfologik-stemming/1.9.0/morfologik-stemming-1.9.0.pom
+2018-06-04 17:30:44,889 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/carrot2/morfologik-stemming/1.9.0/morfologik-stemming-1.9.0.pom
+2018-06-04 17:30:44,903 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/sourceforge/segment/segment/1.4.2/segment-1.4.2.pom
+2018-06-04 17:30:44,903 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/sourceforge/segment/segment/1.4.2/segment-1.4.2.pom
+2018-06-04 17:30:44,917 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/sourceforge/segment/segment/1.4.2/segment-1.4.2.pom
+2018-06-04 17:30:44,919 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/sourceforge/segment/segment/1.4.2/segment-1.4.2.pom
+2018-06-04 17:30:44,947 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/edu/washington/cs/knowitall/opennlp-tokenize-models/1.5/opennlp-tokenize-models-1.5.pom
+2018-06-04 17:30:44,947 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/edu/washington/cs/knowitall/opennlp-tokenize-models/1.5/opennlp-tokenize-models-1.5.pom
+2018-06-04 17:30:44,959 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/edu/washington/cs/knowitall/opennlp-tokenize-models/1.5/opennlp-tokenize-models-1.5.pom
+2018-06-04 17:30:44,961 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/edu/washington/cs/knowitall/opennlp-tokenize-models/1.5/opennlp-tokenize-models-1.5.pom
+2018-06-04 17:30:44,971 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/edu/washington/cs/knowitall/knowitall-oss/1.0.0/knowitall-oss-1.0.0.pom
+2018-06-04 17:30:44,973 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/edu/washington/cs/knowitall/knowitall-oss/1.0.0/knowitall-oss-1.0.0.pom
+2018-06-04 17:30:44,985 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/edu/washington/cs/knowitall/knowitall-oss/1.0.0/knowitall-oss-1.0.0.pom
+2018-06-04 17:30:44,986 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/edu/washington/cs/knowitall/knowitall-oss/1.0.0/knowitall-oss-1.0.0.pom
+2018-06-04 17:30:45,000 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/edu/washington/cs/knowitall/opennlp-postag-models/1.5/opennlp-postag-models-1.5.pom
+2018-06-04 17:30:45,002 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/edu/washington/cs/knowitall/opennlp-postag-models/1.5/opennlp-postag-models-1.5.pom
+2018-06-04 17:30:45,010 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/edu/washington/cs/knowitall/opennlp-postag-models/1.5/opennlp-postag-models-1.5.pom
+2018-06-04 17:30:45,011 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/edu/washington/cs/knowitall/opennlp-postag-models/1.5/opennlp-postag-models-1.5.pom
+2018-06-04 17:30:45,023 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/edu/washington/cs/knowitall/opennlp-chunk-models/1.5/opennlp-chunk-models-1.5.pom
+2018-06-04 17:30:45,023 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/edu/washington/cs/knowitall/opennlp-chunk-models/1.5/opennlp-chunk-models-1.5.pom
+2018-06-04 17:30:45,034 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/edu/washington/cs/knowitall/opennlp-chunk-models/1.5/opennlp-chunk-models-1.5.pom
+2018-06-04 17:30:45,035 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/edu/washington/cs/knowitall/opennlp-chunk-models/1.5/opennlp-chunk-models-1.5.pom
+2018-06-04 17:30:45,048 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/languagetool/language-zh/2.5/language-zh-2.5.pom
+2018-06-04 17:30:45,049 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/languagetool/language-zh/2.5/language-zh-2.5.pom
+2018-06-04 17:30:45,059 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/languagetool/language-zh/2.5/language-zh-2.5.pom
+2018-06-04 17:30:45,060 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/languagetool/language-zh/2.5/language-zh-2.5.pom
+2018-06-04 17:30:45,073 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/googlecode/ictclas4j/ictclas4j/1.0.1/ictclas4j-1.0.1.pom
+2018-06-04 17:30:45,074 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/googlecode/ictclas4j/ictclas4j/1.0.1/ictclas4j-1.0.1.pom
+2018-06-04 17:30:45,087 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/googlecode/ictclas4j/ictclas4j/1.0.1/ictclas4j-1.0.1.pom
+2018-06-04 17:30:45,087 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/googlecode/ictclas4j/ictclas4j/1.0.1/ictclas4j-1.0.1.pom
+2018-06-04 17:30:45,106 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/cjftransform/1.0.1/cjftransform-1.0.1.pom
+2018-06-04 17:30:45,107 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/cjftransform/1.0.1/cjftransform-1.0.1.pom
+2018-06-04 17:30:45,116 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/cjftransform/1.0.1/cjftransform-1.0.1.pom
+2018-06-04 17:30:45,117 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/cjftransform/1.0.1/cjftransform-1.0.1.pom
+2018-06-04 17:30:45,256 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/kennycason/kumo/1.5/kumo-1.5.jar
+2018-06-04 17:30:45,341 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/kennycason/kumo/1.5/kumo-1.5.jar
+2018-06-04 17:30:45,354 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/googlecode/lambdaj/lambdaj/2.3.3/lambdaj-2.3.3.jar
+2018-06-04 17:30:45,396 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/googlecode/lambdaj/lambdaj/2.3.3/lambdaj-2.3.3.jar
+2018-06-04 17:30:45,422 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-all/1.1/hamcrest-all-1.1.jar
+2018-06-04 17:30:45,561 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-all/1.1/hamcrest-all-1.1.jar
+2018-06-04 17:30:45,573 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.jar
+2018-06-04 17:30:45,584 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-04 17:30:45,586 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-04 17:30:45,588 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.jar
+2018-06-04 17:30:45,589 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-04 17:30:45,590 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-04 17:30:45,602 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/cglib/cglib-nodep/2.2/cglib-nodep-2.2.jar
+2018-06-04 17:30:45,668 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/cglib/cglib-nodep/2.2/cglib-nodep-2.2.jar
+2018-06-04 17:30:45,679 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.8.2/jsoup-1.8.2.jar
+2018-06-04 17:30:45,726 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.8.2/jsoup-1.8.2.jar
+2018-06-04 17:30:45,805 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/davidmoten/rtree/0.7.5/rtree-0.7.5.jar
+2018-06-04 17:30:45,887 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/davidmoten/rtree/0.7.5/rtree-0.7.5.jar
+2018-06-04 17:30:45,898 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/davidmoten/guava-mini/0.1/guava-mini-0.1.jar
+2018-06-04 17:30:45,921 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/davidmoten/guava-mini/0.1/guava-mini-0.1.jar
+2018-06-04 17:30:45,949 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/reactivex/rxjava/1.1.1/rxjava-1.1.1.jar
+2018-06-04 17:30:46,058 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/reactivex/rxjava/1.1.1/rxjava-1.1.1.jar
+2018-06-04 17:30:46,114 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/languagetool/language-en/2.5/language-en-2.5.jar
+2018-06-04 17:30:46,315 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/languagetool/language-en/2.5/language-en-2.5.jar
+2018-06-04 17:30:46,329 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/languagetool/languagetool-core/2.5/languagetool-core-2.5.jar
+2018-06-04 17:30:46,357 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/languagetool/languagetool-core/2.5/languagetool-core-2.5.jar
+2018-06-04 17:30:46,366 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/carrot2/morfologik-fsa/1.9.0/morfologik-fsa-1.9.0.jar
+2018-06-04 17:30:46,381 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/carrot2/morfologik-fsa/1.9.0/morfologik-fsa-1.9.0.jar
+2018-06-04 17:30:46,391 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/carrot2/morfologik-speller/1.9.0/morfologik-speller-1.9.0.jar
+2018-06-04 17:30:46,418 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/carrot2/morfologik-speller/1.9.0/morfologik-speller-1.9.0.jar
+2018-06-04 17:30:46,426 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/carrot2/morfologik-stemming/1.9.0/morfologik-stemming-1.9.0.jar
+2018-06-04 17:30:46,442 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/carrot2/morfologik-stemming/1.9.0/morfologik-stemming-1.9.0.jar
+2018-06-04 17:30:46,453 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/sourceforge/segment/segment/1.4.2/segment-1.4.2.jar
+2018-06-04 17:30:46,469 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/sourceforge/segment/segment/1.4.2/segment-1.4.2.jar
+2018-06-04 17:30:46,479 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/edu/washington/cs/knowitall/opennlp-tokenize-models/1.5/opennlp-tokenize-models-1.5.jar
+2018-06-04 17:30:46,514 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/edu/washington/cs/knowitall/opennlp-tokenize-models/1.5/opennlp-tokenize-models-1.5.jar
+2018-06-04 17:30:46,525 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/edu/washington/cs/knowitall/opennlp-postag-models/1.5/opennlp-postag-models-1.5.jar
+2018-06-04 17:30:47,049 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/edu/washington/cs/knowitall/opennlp-postag-models/1.5/opennlp-postag-models-1.5.jar
+2018-06-04 17:30:47,124 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/edu/washington/cs/knowitall/opennlp-chunk-models/1.5/opennlp-chunk-models-1.5.jar
+2018-06-04 17:30:47,371 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/edu/washington/cs/knowitall/opennlp-chunk-models/1.5/opennlp-chunk-models-1.5.jar
+2018-06-04 17:30:47,429 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/languagetool/language-zh/2.5/language-zh-2.5.jar
+2018-06-04 17:30:47,761 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/languagetool/language-zh/2.5/language-zh-2.5.jar
+2018-06-04 17:30:47,775 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/googlecode/ictclas4j/ictclas4j/1.0.1/ictclas4j-1.0.1.jar
+2018-06-04 17:30:47,797 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/googlecode/ictclas4j/ictclas4j/1.0.1/ictclas4j-1.0.1.jar
+2018-06-04 17:30:47,811 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/cjftransform/1.0.1/cjftransform-1.0.1.jar
+2018-06-04 17:30:47,828 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/cjftransform/1.0.1/cjftransform-1.0.1.jar
+2018-06-05 15:07:37,213 [Worker-120] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:07:37,217 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:07:37,219 [Worker-120] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:07:37,219 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:08:55,049 [Worker-110] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:08:55,049 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:08:55,051 [Worker-110] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:08:55,051 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:11:29,987 [Worker-110] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:11:29,988 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:11:29,989 [Worker-110] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:11:29,990 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:12:02,402 [Worker-118] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:12:02,403 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:12:02,405 [Worker-118] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:12:02,410 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:12:27,707 [Worker-110] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:12:27,708 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:12:27,709 [Worker-110] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:12:27,710 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:13:56,493 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:13:56,494 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:13:56,496 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:13:56,497 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:15:31,823 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:15:31,824 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:15:31,826 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:15:31,827 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:16:35,510 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:16:35,513 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:16:35,522 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:16:35,523 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:16:53,858 [Worker-110] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:16:53,859 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:16:53,861 [Worker-110] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:16:53,864 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:17:50,356 [Worker-122] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:17:50,357 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:17:50,358 [Worker-122] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:17:50,363 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:19:03,104 [Worker-123] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:19:03,105 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:19:03,109 [Worker-123] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:19:03,110 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:19:49,366 [Worker-121] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:19:49,367 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:19:49,370 [Worker-121] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:19:49,370 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:19:56,774 [Worker-110] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:19:56,775 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:19:56,776 [Worker-110] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:19:56,777 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:23:29,110 [Worker-123] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:23:29,111 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:23:29,112 [Worker-123] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:23:29,113 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:23:48,688 [Worker-126] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:23:48,690 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:23:48,696 [Worker-126] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:23:48,697 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:24:05,491 [Worker-124] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:24:05,492 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:24:05,495 [Worker-124] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:24:05,496 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:27:36,472 [Worker-121] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:27:36,473 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:27:36,474 [Worker-121] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:27:36,475 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:28:13,936 [Worker-121] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:28:13,937 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:28:13,939 [Worker-121] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:28:13,939 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:36:33,105 [Worker-130] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:36:33,107 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:36:33,108 [Worker-130] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:36:33,109 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:37:33,248 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:37:33,250 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:37:33,252 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:37:33,252 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:37:47,883 [Worker-118] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:37:47,884 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:37:47,885 [Worker-118] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:37:47,886 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:38:13,265 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:38:13,267 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:38:13,275 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:38:13,276 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:38:57,988 [Worker-130] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:38:57,993 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:38:57,995 [Worker-130] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:38:57,996 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:40:35,157 [Worker-130] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:40:35,158 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:40:35,159 [Worker-130] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:40:35,160 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:40:42,755 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:40:42,758 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:40:42,759 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:40:42,760 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:40:48,382 [Worker-118] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:40:48,383 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:40:48,384 [Worker-118] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:40:48,384 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:40:58,723 [Worker-118] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:40:58,725 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:40:58,726 [Worker-118] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:40:58,727 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:41:04,011 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:41:04,012 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:41:04,013 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:41:04,014 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:41:55,423 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:41:55,423 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:41:55,425 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:41:55,425 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:42:40,849 [Worker-118] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:42:40,849 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:42:40,850 [Worker-118] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:42:40,851 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:43:02,130 [Worker-118] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:43:02,131 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:43:02,132 [Worker-118] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:43:02,133 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:43:08,071 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:43:08,072 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:43:08,073 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:43:08,074 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:43:27,514 [Worker-130] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:43:27,515 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:43:27,517 [Worker-130] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:43:27,517 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:45:27,015 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:45:27,016 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:45:27,018 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:45:27,018 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 15:45:56,656 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:45:56,657 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 15:45:56,658 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 15:45:56,659 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-05 20:04:13,188 [Worker-144] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 20:04:13,191 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-05 20:04:13,193 [Worker-144] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-05 20:04:13,194 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:08:21,234 [Worker-304] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:08:21,237 [Worker-304] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:08:21,238 [Worker-304] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:08:21,239 [Worker-304] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:08:22,294 [Worker-308] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:08:22,294 [Worker-308] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:08:22,296 [Worker-308] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:08:22,298 [Worker-308] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:12:37,670 [Worker-306] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:12:37,672 [Worker-306] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:12:37,673 [Worker-306] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:12:37,674 [Worker-306] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:12:38,686 [Worker-306] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:12:38,687 [Worker-306] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:12:38,688 [Worker-306] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:12:38,690 [Worker-306] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:12:49,951 [Worker-309] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:12:49,952 [Worker-309] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:12:49,953 [Worker-309] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:12:49,954 [Worker-309] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:14:40,966 [Worker-305] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:14:40,967 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:14:40,969 [Worker-305] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:14:40,970 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:15:02,685 [Worker-306] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:15:02,686 [Worker-306] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:15:02,688 [Worker-306] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:15:02,689 [Worker-306] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:16:58,804 [Worker-309] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:16:58,805 [Worker-309] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:16:58,808 [Worker-309] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:16:58,809 [Worker-309] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:17:22,692 [Worker-312] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:17:22,693 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:17:22,696 [Worker-312] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:17:22,697 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:17:47,116 [Worker-309] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:17:47,118 [Worker-309] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:17:47,119 [Worker-309] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:17:47,120 [Worker-309] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:18:30,201 [Worker-305] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:18:30,203 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:18:30,204 [Worker-305] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:18:30,205 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:18:31,324 [Worker-312] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:18:31,324 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:18:31,326 [Worker-312] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:18:31,327 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:20:39,836 [Worker-306] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:20:39,837 [Worker-306] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:20:39,838 [Worker-306] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:20:39,846 [Worker-306] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:20:40,929 [Worker-303] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:20:40,930 [Worker-303] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:20:40,932 [Worker-303] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:20:40,933 [Worker-303] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:21:44,342 [Worker-313] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:21:44,343 [Worker-313] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:21:44,344 [Worker-313] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:21:44,346 [Worker-313] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:21:45,468 [Worker-305] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:21:45,468 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:21:45,470 [Worker-305] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:21:45,471 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:23:38,064 [Worker-313] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:23:38,065 [Worker-313] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:23:38,066 [Worker-313] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:23:38,067 [Worker-313] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:23:39,185 [Worker-306] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:23:39,186 [Worker-306] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:23:39,186 [Worker-306] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:23:39,187 [Worker-306] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:24:03,022 [Worker-314] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:24:03,023 [Worker-314] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:24:03,025 [Worker-314] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:24:03,025 [Worker-314] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:24:04,142 [Worker-315] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:24:04,143 [Worker-315] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:24:04,144 [Worker-315] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:24:04,145 [Worker-315] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:28:43,975 [Worker-312] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:28:43,977 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:28:43,978 [Worker-312] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:28:43,978 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:28:45,096 [Worker-314] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:28:45,097 [Worker-314] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:28:45,097 [Worker-314] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:28:45,098 [Worker-314] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:30:52,440 [Worker-317] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:30:52,441 [Worker-317] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:30:52,442 [Worker-317] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:30:52,443 [Worker-317] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:31:22,328 [Worker-316] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:31:22,329 [Worker-316] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:31:22,330 [Worker-316] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:31:22,331 [Worker-316] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:32:33,552 [Worker-319] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:32:33,553 [Worker-319] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:32:33,554 [Worker-319] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:32:33,554 [Worker-319] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:37:47,202 [Worker-312] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:37:47,203 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:37:47,204 [Worker-312] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:37:47,205 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:38:20,784 [Worker-312] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:38:20,784 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:38:20,786 [Worker-312] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:38:20,787 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:39:05,806 [Worker-321] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:39:05,807 [Worker-321] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:39:05,808 [Worker-321] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:39:05,808 [Worker-321] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:40:25,339 [Worker-321] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:40:25,340 [Worker-321] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:40:25,341 [Worker-321] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:40:25,342 [Worker-321] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:40:53,104 [Worker-312] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:40:53,105 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:40:53,106 [Worker-312] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:40:53,107 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:40:54,223 [Worker-320] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:40:54,229 [Worker-320] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:40:54,230 [Worker-320] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:40:54,231 [Worker-320] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:41:16,319 [Worker-319] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:41:16,320 [Worker-319] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:41:16,322 [Worker-319] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:41:16,323 [Worker-319] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:41:17,441 [Worker-322] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:41:17,442 [Worker-322] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:41:17,444 [Worker-322] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:41:17,444 [Worker-322] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:44:41,082 [Worker-324] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:44:41,084 [Worker-324] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:44:41,084 [Worker-324] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:44:41,085 [Worker-324] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:44:42,210 [Worker-317] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:44:42,211 [Worker-317] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:44:42,212 [Worker-317] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:44:42,213 [Worker-317] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:46:38,557 [Worker-325] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:46:38,558 [Worker-325] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:46:38,559 [Worker-325] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:46:38,560 [Worker-325] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:46:39,674 [Worker-328] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:46:39,674 [Worker-328] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:46:39,675 [Worker-328] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:46:39,676 [Worker-328] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:48:30,654 [Worker-329] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:48:30,655 [Worker-329] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:48:30,656 [Worker-329] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:48:30,656 [Worker-329] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-06 14:48:31,822 [Worker-331] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:48:31,823 [Worker-331] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-06 14:48:31,824 [Worker-331] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-06 14:48:31,825 [Worker-331] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources

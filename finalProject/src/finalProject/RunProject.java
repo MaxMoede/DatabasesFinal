@@ -49,7 +49,7 @@ public class RunProject{
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/music?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useConfigs=maxPerformance&useSSL=false&serverTimezone=UTC", "root", "happify132413");
 			Statement stmt = conn.createStatement();
-			String query = "SELECT * from lyrics L WHERE L.track_id = 'TRAAAAV128F421A322';";
+			String query = "SELECT SUM(count) as count, word FROM lyrics L GROUP BY word ORDER BY count desc LIMIT 1000;";
 			ResultSet rs = stmt.executeQuery(query);
 			List<WordFrequency> theWords = new ArrayList<WordFrequency>();
 			while (rs.next()){
@@ -60,18 +60,19 @@ public class RunProject{
 				System.out.println("recieved string " + foundWord);
 				System.out.println("received int: " + someInt);
 			}
-			File testFile = new File("testData.txt");
-		    String currentPath = testFile.getAbsolutePath();
-		    System.out.println("current path is: " + currentPath);
+			//File testFile = new File("testData.txt");
+		    //String currentPath = testFile.getAbsolutePath();
+		    //System.out.println("current path is: " + currentPath);
 			final FrequencyAnalyzer frequencyAnalyzer = new FrequencyAnalyzer();
 			//final List<WordFrequency> wordFrequencies = frequencyAnalyzer.load(getInputStream("testData.txt"));
-			final Dimension dimension = new Dimension(600, 600);
+			final Dimension dimension = new Dimension(1500, 555);
 			final WordCloud wordCloud = new WordCloud(dimension, CollisionMode.PIXEL_PERFECT);
-			wordCloud.build(theWords);
 			wordCloud.setPadding(2);
 			wordCloud.setBackground(new CircleBackground(300));
+			wordCloud.setBackground(new PixelBoundryBackground(new FileInputStream("resources/mountain2.png")));
 			wordCloud.setColorPalette(new ColorPalette(new Color(0x4055F1), new Color(0x408DF1), new Color(0x40AAF1), new Color(0x40C5F1), new Color(0x40D3F1), new Color(0xFFFFFF)));
 			wordCloud.setFontScalar(new SqrtFontScalar(10, 40));
+			wordCloud.build(theWords);
 			//wordCloud.build((java.util.List<WordFrequency>) wordFrequencies);
 			wordCloud.writeToFile("datarank_wordcloud_circle_sqrt_font.png");
 			//System.out.println(rs.getString(1));
