@@ -42,14 +42,18 @@ import com.kennycason.kumo.nlp.FrequencyAnalyzer;
 import com.kennycason.kumo.palette.ColorPalette;
 
 public class RunProject{
-	public static void main(String[] args) throws SQLException, IOException{
+	public RunProject(){
+		
+	}
+	//public static void main(String[] args) throws SQLException, IOException{
+	public void runQuery(int numWords) throws SQLException, IOException {
 		//System.out.println("hello");
 		BasicConfigurator.configure();
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/music?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useConfigs=maxPerformance&useSSL=false&serverTimezone=UTC", "root", "happify132413");
 			Statement stmt = conn.createStatement();
-			String query = "SELECT SUM(count) as count, word FROM lyrics L GROUP BY word ORDER BY count desc LIMIT 1000;";
+			String query = String.format("SELECT SUM(count) as count, word FROM lyrics L GROUP BY word ORDER BY count desc LIMIT %d;", numWords);
 			ResultSet rs = stmt.executeQuery(query);
 			List<WordFrequency> theWords = new ArrayList<WordFrequency>();
 			while (rs.next()){
@@ -69,7 +73,7 @@ public class RunProject{
 			final WordCloud wordCloud = new WordCloud(dimension, CollisionMode.PIXEL_PERFECT);
 			wordCloud.setPadding(2);
 			wordCloud.setBackground(new CircleBackground(300));
-			wordCloud.setBackground(new PixelBoundryBackground(new FileInputStream("resources/mountain2.png")));
+			wordCloud.setBackground(new PixelBoundryBackground(new FileInputStream("resources/jerry.png")));
 			wordCloud.setColorPalette(new ColorPalette(new Color(0x4055F1), new Color(0x408DF1), new Color(0x40AAF1), new Color(0x40C5F1), new Color(0x40D3F1), new Color(0xFFFFFF)));
 			wordCloud.setFontScalar(new SqrtFontScalar(10, 40));
 			wordCloud.build(theWords);
