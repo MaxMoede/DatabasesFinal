@@ -86,7 +86,7 @@ public class RunProject{
 				final WordCloud wordCloud = new WordCloud(dimension, CollisionMode.PIXEL_PERFECT);
 				wordCloud.setPadding(2);
 				wordCloud.setBackground(new PixelBoundryBackground(new FileInputStream("resources/mountain.png")));
-				wordCloud.setColorPalette(new ColorPalette(new Color(0x20B2AA), new Color(0xD5E7BA), new Color(0x9ACD32), new Color(0xF5DEB3), new Color(0xFFFFC6), new Color(0xA0DB8E)));
+				wordCloud.setColorPalette(new ColorPalette(new Color(0x0B513A), new Color(0xD5E7BA), new Color(0x9ACD32), new Color(0xF5DEB3), new Color(0xFFFFC6), new Color(0xA0DB8E)));
 				wordCloud.setFontScalar(new SqrtFontScalar(10, 40));
 				wordCloud.build(theWords);
 				wordCloud.writeToFile("NewMountainWordCloud.png");

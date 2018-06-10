@@ -77,7 +77,7 @@ public class RunProject{
 				final WordCloud wordCloud = new WordCloud(dimension, CollisionMode.PIXEL_PERFECT);
 				wordCloud.setPadding(2);
 				wordCloud.setBackground(new PixelBoundryBackground(new FileInputStream("resources/pi.png")));
-				wordCloud.setColorPalette(new ColorPalette(new Color(0x800000), new Color(0xEC8117), new Color(0xE65738), new Color(0xD1DA30), new Color(0xFF7872), new Color(0xFFFFFF)));
+				wordCloud.setColorPalette(new ColorPalette(new Color(0x4055F1), new Color(0x408DF1), new Color(0x40AAF1), new Color(0x40C5F1), new Color(0x40D3F1), new Color(0xFFFFFF)));
 				wordCloud.setFontScalar(new SqrtFontScalar(10, 40));
 				wordCloud.build(theWords);
 				wordCloud.writeToFile("NewPiWordCloud.png");
@@ -86,7 +86,7 @@ public class RunProject{
 				final WordCloud wordCloud = new WordCloud(dimension, CollisionMode.PIXEL_PERFECT);
 				wordCloud.setPadding(2);
 				wordCloud.setBackground(new PixelBoundryBackground(new FileInputStream("resources/mountain.png")));
-				wordCloud.setColorPalette(new ColorPalette(new Color(0x20B2AA), new Color(0xD5E7BA), new Color(0x9ACD32), new Color(0xF5DEB3), new Color(0xFFFFC6), new Color(0xA0DB8E)));
+				wordCloud.setColorPalette(new ColorPalette(new Color(0x4055F1), new Color(0x408DF1), new Color(0x40AAF1), new Color(0x40C5F1), new Color(0x40D3F1), new Color(0xFFFFFF)));
 				wordCloud.setFontScalar(new SqrtFontScalar(10, 40));
 				wordCloud.build(theWords);
 				wordCloud.writeToFile("NewMountainWordCloud.png");
@@ -113,7 +113,7 @@ public class RunProject{
 				final WordCloud wordCloud = new WordCloud(dimension, CollisionMode.PIXEL_PERFECT);
 				wordCloud.setPadding(2);
 				wordCloud.setBackground(new CircleBackground(300));
-				wordCloud.setColorPalette(new ColorPalette(new Color(0x9CFDFF), new Color(0xfff68f), new Color(0x20B2AA), new Color(0xF08080), new Color(0xA6CCFF), new Color(0xD7B8FF)));
+				wordCloud.setColorPalette(new ColorPalette(new Color(0x4055F1), new Color(0x408DF1), new Color(0x40AAF1), new Color(0x40C5F1), new Color(0x40D3F1), new Color(0xFFFFFF)));
 				wordCloud.setFontScalar(new SqrtFontScalar(10, 40));
 				wordCloud.build(theWords);
 				wordCloud.writeToFile("NewCircleWordCloud.png");
