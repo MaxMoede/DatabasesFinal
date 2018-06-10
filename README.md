@@ -1,7 +1,8 @@
 # Databases Final
 # Authors: Max Moede and David Twyman
 
-Description: This program generates word cloud images based on different sql queries from the 'Million Song Database' ---> https://labrosa.ee.columbia.edu/millionsong/ 
+#Description: 
+This program generates word cloud images based on different sql queries from the 'Million Song Database' ---> https://labrosa.ee.columbia.edu/millionsong/ 
 The database is a freely-available collection of audio metadata for a million 
 music tracks. We decided to focus on the lyrics of songs, so each word cloud is an aggregate of lyrics from the million songs. 
 
@@ -12,7 +13,18 @@ We used the Kumo library ---> https://github.com/kennycason/kumo to create the w
 
 The project uses maven as well.
 
-How to run the project:
+#INTERNALS DESCRIPTION:
+For least/most popular words: We used "ORDER BY ASC/DESC" for our query
+
+For specifiying length range: We used "CHAR_LENGTH(word) >= {low range here} AND CHAR_LENGTH(word) <= {high range here}"
+
+For Specifying word similarity: We used "word LIKE '%{some string}%'" which returns words that include the substring given.
+
+We got the total word usage by taking the SUM(count) of the words and grouping by each word.
+
+
+
+#How to run the project:
 1. Open up the python script and follow the directions at the top of the file.
 2. Run the script, populate your database.
 3. The java part of the project is built with eclipse, so you need to open the project with eclipse.
@@ -20,7 +32,7 @@ The project is built in the folder 'finalProject'.
 4. Click the green arrow in eclipse to run the project, the gui should open. 
 5. Each word cloud generated can be found in the finalProject folder.
 
-LOG: We worked together during each phase of the build.
+#LOG: We worked together during each phase of the build.
 
 6/1/18: Created the python script to build the database. This took about 
 4 hours of work.
