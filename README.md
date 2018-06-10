@@ -1,9 +1,8 @@
 # Databases Final
+# Authors: Max Moede and David Twyman
 
-For David:
-I used eclipse for creating this java project,
-What you wanna do is download the tar file from 
-https://dev.mysql.com/downloads/file/?id=477057
-Unzip it, then you wanna open up the project in eclipse and 
-right click on the project folder -> click on build path -> add external JAR -> find the jar you downloaded from the earlier link and click on that.
-
+How to run the project:
+1. Open up the python script and follow the directions at the top of the file.
+2. Run the script, populate your database.
+3. The java part of the project is built with eclipse, so you need to open the project with eclipse.
+4. Click the green arrow in eclipse to run the project, the gui should open. 
