@@ -46,9 +46,9 @@ public class RunProject{
 	public RunProject(){
 		
 	}
-
+	//public static void main(String[] args) throws SQLException, IOException{
 	public void runQuery(int numWords, String photoName, int most, int lowRange, int highRange, String similarTo) throws SQLException, IOException {
-	
+		//System.out.println("hello");
 		BasicConfigurator.configure();
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
@@ -71,11 +71,12 @@ public class RunProject{
 				System.out.println("received int: " + someInt);
 			}
 			final FrequencyAnalyzer frequencyAnalyzer = new FrequencyAnalyzer();
-		
+			//final List<WordFrequency> wordFrequencies = frequencyAnalyzer.load(getInputStream("testData.txt"));
 			if (photoName.equals("pi")){
 				final Dimension dimension = new Dimension(384, 384);
 				final WordCloud wordCloud = new WordCloud(dimension, CollisionMode.PIXEL_PERFECT);
 				wordCloud.setPadding(2);
+				//wordCloud.setBackground(new CircleBackground(300));
 				wordCloud.setBackground(new PixelBoundryBackground(new FileInputStream("resources/pi.png")));
 				wordCloud.setColorPalette(new ColorPalette(new Color(0x4055F1), new Color(0x408DF1), new Color(0x40AAF1), new Color(0x40C5F1), new Color(0x40D3F1), new Color(0xFFFFFF)));
 				wordCloud.setFontScalar(new SqrtFontScalar(10, 40));
@@ -85,6 +86,7 @@ public class RunProject{
 				final Dimension dimension = new Dimension(1499, 555);
 				final WordCloud wordCloud = new WordCloud(dimension, CollisionMode.PIXEL_PERFECT);
 				wordCloud.setPadding(2);
+				//wordCloud.setBackground(new CircleBackground(300));
 				wordCloud.setBackground(new PixelBoundryBackground(new FileInputStream("resources/mountain.png")));
 				wordCloud.setColorPalette(new ColorPalette(new Color(0x4055F1), new Color(0x408DF1), new Color(0x40AAF1), new Color(0x40C5F1), new Color(0x40D3F1), new Color(0xFFFFFF)));
 				wordCloud.setFontScalar(new SqrtFontScalar(10, 40));
@@ -113,12 +115,22 @@ public class RunProject{
 				final WordCloud wordCloud = new WordCloud(dimension, CollisionMode.PIXEL_PERFECT);
 				wordCloud.setPadding(2);
 				wordCloud.setBackground(new CircleBackground(300));
+				//wordCloud.setBackground(new PixelBoundryBackground(new FileInputStream("resources/pi.png")));
 				wordCloud.setColorPalette(new ColorPalette(new Color(0x4055F1), new Color(0x408DF1), new Color(0x40AAF1), new Color(0x40C5F1), new Color(0x40D3F1), new Color(0xFFFFFF)));
 				wordCloud.setFontScalar(new SqrtFontScalar(10, 40));
 				wordCloud.build(theWords);
 				wordCloud.writeToFile("NewCircleWordCloud.png");
 			}
-
+			//final Dimension dimension = new Dimension(512, 512);
+			/*final WordCloud wordCloud = new WordCloud(dimension, CollisionMode.PIXEL_PERFECT);
+			wordCloud.setPadding(2);
+			wordCloud.setBackground(new CircleBackground(300));
+			wordCloud.setBackground(new PixelBoundryBackground(new FileInputStream("resources/pi.png")));
+			wordCloud.setColorPalette(new ColorPalette(new Color(0x4055F1), new Color(0x408DF1), new Color(0x40AAF1), new Color(0x40C5F1), new Color(0x40D3F1), new Color(0xFFFFFF)));
+			wordCloud.setFontScalar(new SqrtFontScalar(10, 40));
+			wordCloud.build(theWords);*/
+			//wordCloud.build((java.util.List<WordFrequency>) wordFrequencies);
+			//System.out.println(rs.getString(1));
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
