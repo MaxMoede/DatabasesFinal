@@ -70,10 +70,6 @@ public class RunGui {
 						firstRun.runQuery(convertedInt, "whale");
 					} else if (rdbtnMountain.isSelected()){
 						firstRun.runQuery(convertedInt, "mountain");
-					} else if (rdbtnPi.isSelected()){
-						firstRun.runQuery(convertedInt, "pi");
-					} else if (rdbtnNewRadioButton.isSelected()){
-						firstRun.runQuery(convertedInt, "thumbs up");
 					}
 				} catch (SQLException e1) {
 					// TODO Auto-generated catch block

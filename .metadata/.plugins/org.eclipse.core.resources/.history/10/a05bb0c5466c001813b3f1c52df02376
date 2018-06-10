@@ -54,7 +54,6 @@ public class RunProject{
 			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/music?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useConfigs=maxPerformance&useSSL=false&serverTimezone=UTC", "root", "happify132413");
 			Statement stmt = conn.createStatement();
 			String query = String.format("SELECT SUM(count) as count, word FROM lyrics L GROUP BY word ORDER BY count desc LIMIT %d;", numWords);
-			//"SELECT SUM(count) as count, word from lyrics where CHAR_LENGTH(word) > 8 and CHAR_LENGTH(word) < 10 GROUP BY word ORDER BY count DESC LIMIT 1000;"
 			ResultSet rs = stmt.executeQuery(query);
 			List<WordFrequency> theWords = new ArrayList<WordFrequency>();
 			while (rs.next()){
@@ -109,7 +108,7 @@ public class RunProject{
 				wordCloud.build(theWords);
 				wordCloud.writeToFile("NewThumbsUpWordCloud.png");
 			} else {
-				final Dimension dimension = new Dimension(600, 600);
+				final Dimension dimension = new Dimension(900, 900);
 				final WordCloud wordCloud = new WordCloud(dimension, CollisionMode.PIXEL_PERFECT);
 				wordCloud.setPadding(2);
 				wordCloud.setBackground(new CircleBackground(300));
