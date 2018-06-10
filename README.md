@@ -23,7 +23,7 @@ The project is built in the folder 'finalProject'.
 LOG: We worked together during each phase of the build.
 
 6/1/18: Created the python script to build the database. This took about 
-4 hours of work. Both of us worked on this.
+4 hours of work.
 
 6/4/18: Started building the java project, worked about 3 hours learning 
 how to use guis and various things.
