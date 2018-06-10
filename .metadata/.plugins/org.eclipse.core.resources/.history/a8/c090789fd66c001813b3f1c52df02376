@@ -32,10 +32,6 @@ public class RunGui {
 	private JLabel lblOfThe;
 	private JTextField textField;
 	private JTextField textField_1;
-	private JRadioButton rdbtnMost;
-	private JRadioButton rdbtnLeast;
-	private JLabel lblIWantWords;
-	private JTextField textField_2;
 
 	/**
 	 * Launch the application.
@@ -76,38 +72,17 @@ public class RunGui {
 				String someString = txtThisIsThe.getText();
 				int convertedInt = Integer.parseInt(someString);
 				RunProject firstRun = new RunProject();
-				String lowRange = textField.getText();
-				String highRange = textField_1.getText();
-				int lowRangeInt = Integer.parseInt(lowRange);
-				int highRangeInt = Integer.parseInt(highRange);
-				String similarTo = textField_2.getText();
 				try {
-					if (rdbtnLeast.isSelected()){
-						System.out.println("Least selected");
-						if (rdbtnCircle.isSelected()){
-							firstRun.runQuery(convertedInt, "circle", 0, lowRangeInt, highRangeInt, similarTo);
-						} else if (rdbtnWhale.isSelected()){
-							firstRun.runQuery(convertedInt, "whale", 0, lowRangeInt, highRangeInt, similarTo);
-						} else if (rdbtnMountain.isSelected()){
-							firstRun.runQuery(convertedInt, "mountain", 0, lowRangeInt, highRangeInt, similarTo);
-						} else if (rdbtnPi.isSelected()){
-							firstRun.runQuery(convertedInt, "pi", 0, lowRangeInt, highRangeInt, similarTo);
-						} else if (rdbtnNewRadioButton.isSelected()){
-							firstRun.runQuery(convertedInt, "thumbs up", 0, lowRangeInt, highRangeInt, similarTo);
-						}
-					} else {
-						System.out.println("most selected");
-						if (rdbtnCircle.isSelected()){
-							firstRun.runQuery(convertedInt, "circle", 1, lowRangeInt, highRangeInt, similarTo);
-						} else if (rdbtnWhale.isSelected()){
-							firstRun.runQuery(convertedInt, "whale", 1, lowRangeInt, highRangeInt, similarTo);
-						} else if (rdbtnMountain.isSelected()){
-							firstRun.runQuery(convertedInt, "mountain", 1, lowRangeInt, highRangeInt, similarTo);
-						} else if (rdbtnPi.isSelected()){
-							firstRun.runQuery(convertedInt, "pi", 1, lowRangeInt, highRangeInt, similarTo);
-						} else if (rdbtnNewRadioButton.isSelected()){
-							firstRun.runQuery(convertedInt, "thumbs up", 1, lowRangeInt, highRangeInt, similarTo);
-						}
+					if (rdbtnCircle.isSelected()){
+						firstRun.runQuery(convertedInt, "circle");
+					} else if (rdbtnWhale.isSelected()){
+						firstRun.runQuery(convertedInt, "whale");
+					} else if (rdbtnMountain.isSelected()){
+						firstRun.runQuery(convertedInt, "mountain");
+					} else if (rdbtnPi.isSelected()){
+						firstRun.runQuery(convertedInt, "pi");
+					} else if (rdbtnNewRadioButton.isSelected()){
+						firstRun.runQuery(convertedInt, "thumbs up");
 					}
 				} catch (SQLException e1) {
 					// TODO Auto-generated catch block
@@ -158,11 +133,11 @@ public class RunGui {
 		lblOfThe.setBounds(212, 29, 48, 16);
 		frame.getContentPane().add(lblOfThe);
 		
-		rdbtnMost = new JRadioButton("most");
+		JRadioButton rdbtnMost = new JRadioButton("most");
 		rdbtnMost.setBounds(255, 43, 79, 23);
 		frame.getContentPane().add(rdbtnMost);
 		
-		rdbtnLeast = new JRadioButton("least");
+		JRadioButton rdbtnLeast = new JRadioButton("least");
 		rdbtnLeast.setBounds(255, 17, 79, 23);
 		frame.getContentPane().add(rdbtnLeast);
 		
@@ -197,15 +172,6 @@ public class RunGui {
 		JLabel lblIWantMy = new JLabel("I want my word cloud in the shape of...");
 		lblIWantMy.setBounds(212, 196, 333, 16);
 		frame.getContentPane().add(lblIWantMy);
-		
-		lblIWantWords = new JLabel("I want words similar to");
-		lblIWantWords.setBounds(145, 157, 173, 16);
-		frame.getContentPane().add(lblIWantWords);
-		
-		textField_2 = new JTextField();
-		textField_2.setBounds(304, 150, 180, 26);
-		frame.getContentPane().add(textField_2);
-		textField_2.setColumns(10);
 		
 	}
 }

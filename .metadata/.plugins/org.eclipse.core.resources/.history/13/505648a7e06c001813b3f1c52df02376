@@ -55,11 +55,14 @@ public class RunProject{
 			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/music?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useConfigs=maxPerformance&useSSL=false&serverTimezone=UTC", "root", "happify132413");
 			Statement stmt = conn.createStatement();
 		
+			//query = String.format("SELECT SUM(count) as count, word FROM lyrics L GROUP BY word ORDER BY count desc LIMIT %d;", numWords);
 			if (most == 1){
 				query = String.format("SELECT SUM(count) as count, word from lyrics where word LIKE '%%%s%%' AND CHAR_LENGTH(word) >= %d and CHAR_LENGTH(word) <= %d GROUP BY word ORDER BY count DESC LIMIT %d;", similarTo, lowRange, highRange, numWords);
 			} else {
 				query = String.format("SELECT SUM(count) as count, word from lyrics where word LIKE '%%%s%%' AND CHAR_LENGTH(word) >= %d and CHAR_LENGTH(word) <= %d GROUP BY word ORDER BY count ASC LIMIT %d;", similarTo, lowRange, highRange, numWords);
+
 			}
+			//"SELECT SUM(count) as count, word from lyrics where CHAR_LENGTH(word) > 8 and CHAR_LENGTH(word) < 10 GROUP BY word ORDER BY count DESC LIMIT 1000;"
 			ResultSet rs = stmt.executeQuery(query);
 			List<WordFrequency> theWords = new ArrayList<WordFrequency>();
 			while (rs.next()){

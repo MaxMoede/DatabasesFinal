@@ -42,24 +42,19 @@ import com.kennycason.kumo.nlp.FrequencyAnalyzer;
 import com.kennycason.kumo.palette.ColorPalette;
 
 public class RunProject{
-	private String query;
 	public RunProject(){
 		
 	}
 	//public static void main(String[] args) throws SQLException, IOException{
-	public void runQuery(int numWords, String photoName, int most, int lowRange, int highRange, String similarTo) throws SQLException, IOException {
+	public void runQuery(int numWords, String photoName) throws SQLException, IOException {
 		//System.out.println("hello");
 		BasicConfigurator.configure();
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/music?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useConfigs=maxPerformance&useSSL=false&serverTimezone=UTC", "root", "happify132413");
 			Statement stmt = conn.createStatement();
-		
-			if (most == 1){
-				query = String.format("SELECT SUM(count) as count, word from lyrics where word LIKE '%%%s%%' AND CHAR_LENGTH(word) >= %d and CHAR_LENGTH(word) <= %d GROUP BY word ORDER BY count DESC LIMIT %d;", similarTo, lowRange, highRange, numWords);
-			} else {
-				query = String.format("SELECT SUM(count) as count, word from lyrics where word LIKE '%%%s%%' AND CHAR_LENGTH(word) >= %d and CHAR_LENGTH(word) <= %d GROUP BY word ORDER BY count ASC LIMIT %d;", similarTo, lowRange, highRange, numWords);
-			}
+			String query = String.format("SELECT SUM(count) as count, word FROM lyrics L GROUP BY word ORDER BY count desc LIMIT %d;", numWords);
+			//"SELECT SUM(count) as count, word from lyrics where CHAR_LENGTH(word) > 8 and CHAR_LENGTH(word) < 10 GROUP BY word ORDER BY count DESC LIMIT 1000;"
 			ResultSet rs = stmt.executeQuery(query);
 			List<WordFrequency> theWords = new ArrayList<WordFrequency>();
 			while (rs.next()){
@@ -70,6 +65,9 @@ public class RunProject{
 				System.out.println("recieved string " + foundWord);
 				System.out.println("received int: " + someInt);
 			}
+			//File testFile = new File("testData.txt");
+		    //String currentPath = testFile.getAbsolutePath();
+		    //System.out.println("current path is: " + currentPath);
 			final FrequencyAnalyzer frequencyAnalyzer = new FrequencyAnalyzer();
 			//final List<WordFrequency> wordFrequencies = frequencyAnalyzer.load(getInputStream("testData.txt"));
 			if (photoName.equals("pi")){

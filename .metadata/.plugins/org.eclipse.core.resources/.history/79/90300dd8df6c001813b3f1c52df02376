@@ -83,7 +83,7 @@ public class RunGui {
 				String similarTo = textField_2.getText();
 				try {
 					if (rdbtnLeast.isSelected()){
-						System.out.println("Least selected");
+						print("YO LOOK");
 						if (rdbtnCircle.isSelected()){
 							firstRun.runQuery(convertedInt, "circle", 0, lowRangeInt, highRangeInt, similarTo);
 						} else if (rdbtnWhale.isSelected()){
@@ -96,7 +96,6 @@ public class RunGui {
 							firstRun.runQuery(convertedInt, "thumbs up", 0, lowRangeInt, highRangeInt, similarTo);
 						}
 					} else {
-						System.out.println("most selected");
 						if (rdbtnCircle.isSelected()){
 							firstRun.runQuery(convertedInt, "circle", 1, lowRangeInt, highRangeInt, similarTo);
 						} else if (rdbtnWhale.isSelected()){

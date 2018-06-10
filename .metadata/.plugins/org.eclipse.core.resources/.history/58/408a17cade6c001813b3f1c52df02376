@@ -80,33 +80,30 @@ public class RunGui {
 				String highRange = textField_1.getText();
 				int lowRangeInt = Integer.parseInt(lowRange);
 				int highRangeInt = Integer.parseInt(highRange);
-				String similarTo = textField_2.getText();
 				try {
 					if (rdbtnLeast.isSelected()){
-						System.out.println("Least selected");
 						if (rdbtnCircle.isSelected()){
-							firstRun.runQuery(convertedInt, "circle", 0, lowRangeInt, highRangeInt, similarTo);
+							firstRun.runQuery(convertedInt, "circle", 0, lowRangeInt, highRangeInt, textField_2);
 						} else if (rdbtnWhale.isSelected()){
-							firstRun.runQuery(convertedInt, "whale", 0, lowRangeInt, highRangeInt, similarTo);
+							firstRun.runQuery(convertedInt, "whale", 0, lowRangeInt, highRangeInt, textField_2);
 						} else if (rdbtnMountain.isSelected()){
-							firstRun.runQuery(convertedInt, "mountain", 0, lowRangeInt, highRangeInt, similarTo);
+							firstRun.runQuery(convertedInt, "mountain", 0, lowRangeInt, highRangeInt, textField_2);
 						} else if (rdbtnPi.isSelected()){
-							firstRun.runQuery(convertedInt, "pi", 0, lowRangeInt, highRangeInt, similarTo);
+							firstRun.runQuery(convertedInt, "pi", 0, lowRangeInt, highRangeInt, textField_2);
 						} else if (rdbtnNewRadioButton.isSelected()){
-							firstRun.runQuery(convertedInt, "thumbs up", 0, lowRangeInt, highRangeInt, similarTo);
+							firstRun.runQuery(convertedInt, "thumbs up", 0, lowRangeInt, highRangeInt, textField_2);
 						}
 					} else {
-						System.out.println("most selected");
 						if (rdbtnCircle.isSelected()){
-							firstRun.runQuery(convertedInt, "circle", 1, lowRangeInt, highRangeInt, similarTo);
+							firstRun.runQuery(convertedInt, "circle", 1, lowRangeInt, highRangeInt, textField_2);
 						} else if (rdbtnWhale.isSelected()){
-							firstRun.runQuery(convertedInt, "whale", 1, lowRangeInt, highRangeInt, similarTo);
+							firstRun.runQuery(convertedInt, "whale", 1, lowRangeInt, highRangeInt, textField_2);
 						} else if (rdbtnMountain.isSelected()){
-							firstRun.runQuery(convertedInt, "mountain", 1, lowRangeInt, highRangeInt, similarTo);
+							firstRun.runQuery(convertedInt, "mountain", 1, lowRangeInt, highRangeInt, textField_2);
 						} else if (rdbtnPi.isSelected()){
-							firstRun.runQuery(convertedInt, "pi", 1, lowRangeInt, highRangeInt, similarTo);
+							firstRun.runQuery(convertedInt, "pi", 1, lowRangeInt, highRangeInt, textField_2);
 						} else if (rdbtnNewRadioButton.isSelected()){
-							firstRun.runQuery(convertedInt, "thumbs up", 1, lowRangeInt, highRangeInt, similarTo);
+							firstRun.runQuery(convertedInt, "thumbs up", 1, lowRangeInt, highRangeInt, textField_2);
 						}
 					}
 				} catch (SQLException e1) {

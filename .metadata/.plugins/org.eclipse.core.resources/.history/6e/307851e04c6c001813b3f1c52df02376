@@ -1,0 +1,139 @@
+package finalProject;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.io.IOException;
+import java.sql.SQLException;
+import java.awt.event.ActionEvent;
+import javax.swing.JTextField;
+import javax.swing.JLabel;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JRadioButton;
+import javax.swing.JTabbedPane;
+
+public class RunGui {
+
+
+	private JFrame frame;
+	private JTabbedPane tabs;
+	private JTextField txtThisIsThe;
+	private JRadioButton rdbtnCircle;
+	private JRadioButton rdbtnWhale;
+	private JRadioButton rdbtnMountain;
+	private JRadioButton rdbtnPi;
+	private JRadioButton rdbtnNewRadioButton;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					RunGui window = new RunGui();
+					window.frame.setVisible(true);
+					//firstRun.runQuery();
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public RunGui() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		tabs = new JTabbedPane();
+		frame = new JFrame();
+		frame.setBounds(100, 100, 450, 300);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(null);
+		
+		JButton btnNewButton = new JButton("Generate Word Cloud");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				String someString = txtThisIsThe.getText();
+				int convertedInt = Integer.parseInt(someString);
+				RunProject firstRun = new RunProject();
+				try {
+					if (rdbtnCircle.isSelected()){
+						firstRun.runQuery(convertedInt, "circle");
+					} else if (rdbtnWhale.isSelected()){
+						firstRun.runQuery(convertedInt, "whale");
+					} else if (rdbtnMountain.isSelected()){
+						firstRun.runQuery(convertedInt, "mountain");
+					} else if (rdbtnPi.isSelected()){
+						firstRun.runQuery(convertedInt, "pi");
+					} else if (rdbtnNewRadioButton.isSelected()){
+						firstRun.runQuery(convertedInt, "thumbs up");
+					}
+				} catch (SQLException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				} catch (IOException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+				JOptionPane.showMessageDialog(null, "Image generated! View the image in your eclipse project folder.");
+				///Users/max/Documents/365/final/finalProject/datarank_wordcloud_circle_sqrt_font.png
+				//frame.add(new JLabel(new ImageIcon("resources/jerry.png")));
+			}
+		});
+		btnNewButton.setBounds(134, 217, 204, 29);
+		frame.getContentPane().add(btnNewButton);
+		
+		txtThisIsThe = new JTextField();
+		txtThisIsThe.setText("100");
+		txtThisIsThe.setBounds(129, 52, 209, 26);
+		frame.getContentPane().add(txtThisIsThe);
+		txtThisIsThe.setColumns(10);
+		
+		JLabel lblSelectNumberOf = new JLabel("Select Number of Words");
+		lblSelectNumberOf.setBounds(134, 24, 204, 16);
+		frame.getContentPane().add(lblSelectNumberOf);
+		
+		rdbtnCircle = new JRadioButton("Circle");
+		rdbtnCircle.setBounds(42, 80, 141, 23);
+		frame.getContentPane().add(rdbtnCircle);
+		
+		rdbtnWhale = new JRadioButton("Whale");
+		rdbtnWhale.setBounds(42, 105, 141, 23);
+		frame.getContentPane().add(rdbtnWhale);
+		
+		rdbtnMountain = new JRadioButton("Mountain");
+		rdbtnMountain.setBounds(42, 128, 141, 23);
+		frame.getContentPane().add(rdbtnMountain);
+		
+		rdbtnPi = new JRadioButton("Pi");
+		rdbtnPi.setBounds(42, 152, 141, 23);
+		frame.getContentPane().add(rdbtnPi);
+		
+		rdbtnNewRadioButton = new JRadioButton("Thumbs Up");
+		rdbtnNewRadioButton.setBounds(42, 174, 141, 23);
+		frame.getContentPane().add(rdbtnNewRadioButton);
+		JMenuBar bar = new JMenuBar();
+		bar.add(new JMenu("menu"));
+		frame.setJMenuBar(bar);
+		//frame.add(new JButton("button"));
+		JPanel tab1 = new JPanel(new BorderLayout());
+		tab1.add(frame.getJMenuBar(), BorderLayout.NORTH);
+		tab1.add(frame.getContentPane());
+		tabs.addTab("1", tab1);
+	}
+}
