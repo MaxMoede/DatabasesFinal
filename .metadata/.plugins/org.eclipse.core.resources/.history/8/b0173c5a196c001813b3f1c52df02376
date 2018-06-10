@@ -4,7 +4,6 @@ import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
-import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.io.IOException;
@@ -12,15 +11,11 @@ import java.sql.SQLException;
 import java.awt.event.ActionEvent;
 import javax.swing.JTextField;
 import javax.swing.JLabel;
-import javax.swing.JRadioButton;
 
 public class RunGui {
 
 	private JFrame frame;
 	private JTextField txtThisIsThe;
-	private JRadioButton rdbtnCircle;
-	private JRadioButton rdbtnWhale;
-	private JRadioButton rdbtnMountain;
 
 	/**
 	 * Launch the application.
@@ -62,13 +57,7 @@ public class RunGui {
 				int convertedInt = Integer.parseInt(someString);
 				RunProject firstRun = new RunProject();
 				try {
-					if (rdbtnCircle.isSelected()){
-						firstRun.runQuery(convertedInt, "circle");
-					} else if (rdbtnWhale.isSelected()){
-						firstRun.runQuery(convertedInt, "whale");
-					} else if (rdbtnMountain.isSelected()){
-						firstRun.runQuery(convertedInt, "mountain");
-					}
+					firstRun.runQuery(convertedInt);
 				} catch (SQLException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
@@ -76,9 +65,7 @@ public class RunGui {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
 				}
-				JOptionPane.showMessageDialog(null, "Image generated! View the image in your eclipse project folder.");
-				///Users/max/Documents/365/final/finalProject/datarank_wordcloud_circle_sqrt_font.png
-				//frame.add(new JLabel(new ImageIcon("resources/jerry.png")));
+				JOptionPane.showMessageDialog(null, someString);
 			}
 		});
 		btnNewButton.setBounds(134, 217, 204, 29);
@@ -93,17 +80,5 @@ public class RunGui {
 		JLabel lblSelectNumberOf = new JLabel("Select Number of Words");
 		lblSelectNumberOf.setBounds(134, 24, 204, 16);
 		frame.getContentPane().add(lblSelectNumberOf);
-		
-		rdbtnCircle = new JRadioButton("Circle");
-		rdbtnCircle.setBounds(42, 101, 141, 23);
-		frame.getContentPane().add(rdbtnCircle);
-		
-		rdbtnWhale = new JRadioButton("Whale");
-		rdbtnWhale.setBounds(42, 136, 141, 23);
-		frame.getContentPane().add(rdbtnWhale);
-		
-		rdbtnMountain = new JRadioButton("Mountain");
-		rdbtnMountain.setBounds(42, 171, 141, 23);
-		frame.getContentPane().add(rdbtnMountain);
 	}
 }

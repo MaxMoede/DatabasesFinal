@@ -59,16 +59,11 @@ public class RunGui {
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String someString = txtThisIsThe.getText();
+				
 				int convertedInt = Integer.parseInt(someString);
 				RunProject firstRun = new RunProject();
 				try {
-					if (rdbtnCircle.isSelected()){
-						firstRun.runQuery(convertedInt, "circle");
-					} else if (rdbtnWhale.isSelected()){
-						firstRun.runQuery(convertedInt, "whale");
-					} else if (rdbtnMountain.isSelected()){
-						firstRun.runQuery(convertedInt, "mountain");
-					}
+					firstRun.runQuery(convertedInt);
 				} catch (SQLException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();

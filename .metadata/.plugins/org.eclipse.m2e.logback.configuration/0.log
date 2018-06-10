@@ -516,3 +516,115 @@
 2018-06-09 12:03:43,810 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
 2018-06-09 12:03:43,813 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2018-06-09 12:03:43,815 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-09 12:11:04,808 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 12:11:04,811 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-09 12:11:04,813 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 12:11:04,814 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-09 12:14:38,015 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 12:14:38,017 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-09 12:14:38,019 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 12:14:38,021 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-09 12:15:43,100 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 12:15:43,102 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-09 12:15:43,103 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 12:15:43,104 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-09 12:15:44,117 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 12:15:44,118 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-09 12:15:44,122 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 12:15:44,123 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-09 12:17:54,864 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 12:17:54,870 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-09 12:17:54,873 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 12:17:54,874 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-09 12:20:14,749 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 12:20:14,752 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-09 12:20:14,753 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 12:20:14,754 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-09 12:25:31,218 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 12:25:31,221 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-09 12:25:31,223 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 12:25:31,224 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-09 12:25:32,502 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 12:25:32,503 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-09 12:25:32,504 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 12:25:32,505 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-09 13:08:14,471 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 13:08:14,480 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-09 13:08:14,490 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 13:08:14,491 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-09 13:09:05,153 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 13:09:05,155 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-09 13:09:05,158 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 13:09:05,159 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-09 13:09:06,500 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 13:09:06,501 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-09 13:09:06,504 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 13:09:06,505 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-09 13:10:09,888 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 13:10:09,890 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-09 13:10:09,894 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 13:10:09,895 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-09 13:10:11,192 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 13:10:11,194 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-09 13:10:11,197 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 13:10:11,198 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-09 13:11:51,922 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 13:11:51,926 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-09 13:11:51,928 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 13:11:51,929 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-09 13:13:08,712 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 13:13:08,715 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-09 13:13:08,717 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 13:13:08,718 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-09 13:13:10,119 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 13:13:10,121 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-09 13:13:10,124 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 13:13:10,126 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-09 13:15:29,731 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 13:15:29,733 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-09 13:15:29,736 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 13:15:29,737 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-09 13:15:31,245 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 13:15:31,247 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-09 13:15:31,248 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 13:15:31,249 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-09 17:21:50,210 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 17:21:50,215 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-09 17:21:50,216 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 17:21:50,217 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-09 17:21:51,246 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 17:21:51,259 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-09 17:21:51,265 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 17:21:51,265 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-09 17:23:53,580 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 17:23:53,581 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-09 17:23:53,585 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 17:23:53,585 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-09 17:24:48,477 [Worker-113] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 17:24:48,479 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-09 17:24:48,480 [Worker-113] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 17:24:48,481 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-09 17:26:39,236 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 17:26:39,237 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-09 17:26:39,238 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 17:26:39,239 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-09 17:27:31,043 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 17:27:31,044 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-09 17:27:31,045 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 17:27:31,046 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-09 17:31:57,336 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 17:31:57,339 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-09 17:31:57,340 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 17:31:57,341 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-09 17:32:45,155 [Worker-113] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 17:32:45,157 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-09 17:32:45,162 [Worker-113] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 17:32:45,163 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-09 17:34:32,236 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 17:34:32,237 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-09 17:34:32,239 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 17:34:32,241 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources
+2018-06-09 17:35:43,828 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 17:35:43,830 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/main/resources
+2018-06-09 17:35:43,831 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-09 17:35:43,832 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/max/Documents/365/final/finalProject/src/test/resources

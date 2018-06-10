@@ -70,55 +70,55 @@ public class RunProject{
 			final FrequencyAnalyzer frequencyAnalyzer = new FrequencyAnalyzer();
 			//final List<WordFrequency> wordFrequencies = frequencyAnalyzer.load(getInputStream("testData.txt"));
 			if (photoName.equals("pi")){
-				final Dimension dimension = new Dimension(384, 384);
+				final Dimension dimension = new Dimension(512, 512);
 				final WordCloud wordCloud = new WordCloud(dimension, CollisionMode.PIXEL_PERFECT);
 				wordCloud.setPadding(2);
-				//wordCloud.setBackground(new CircleBackground(300));
+				wordCloud.setBackground(new CircleBackground(300));
 				wordCloud.setBackground(new PixelBoundryBackground(new FileInputStream("resources/pi.png")));
 				wordCloud.setColorPalette(new ColorPalette(new Color(0x4055F1), new Color(0x408DF1), new Color(0x40AAF1), new Color(0x40C5F1), new Color(0x40D3F1), new Color(0xFFFFFF)));
 				wordCloud.setFontScalar(new SqrtFontScalar(10, 40));
 				wordCloud.build(theWords);
 				wordCloud.writeToFile("NewPiWordCloud.png");
 			} else if (photoName.equals("mountain")){
-				final Dimension dimension = new Dimension(1499, 555);
+				final Dimension dimension = new Dimension(512, 512);
 				final WordCloud wordCloud = new WordCloud(dimension, CollisionMode.PIXEL_PERFECT);
 				wordCloud.setPadding(2);
-				//wordCloud.setBackground(new CircleBackground(300));
-				wordCloud.setBackground(new PixelBoundryBackground(new FileInputStream("resources/mountain.png")));
+				wordCloud.setBackground(new CircleBackground(300));
+				wordCloud.setBackground(new PixelBoundryBackground(new FileInputStream("resources/pi.png")));
 				wordCloud.setColorPalette(new ColorPalette(new Color(0x4055F1), new Color(0x408DF1), new Color(0x40AAF1), new Color(0x40C5F1), new Color(0x40D3F1), new Color(0xFFFFFF)));
 				wordCloud.setFontScalar(new SqrtFontScalar(10, 40));
 				wordCloud.build(theWords);
 				wordCloud.writeToFile("NewMountainWordCloud.png");
 			} else if (photoName.equals("whale")){
-				final Dimension dimension = new Dimension(990, 618);
+				final Dimension dimension = new Dimension(512, 512);
 				final WordCloud wordCloud = new WordCloud(dimension, CollisionMode.PIXEL_PERFECT);
 				wordCloud.setPadding(2);
-				//wordCloud.setBackground(new CircleBackground(300));
-				wordCloud.setBackground(new PixelBoundryBackground(new FileInputStream("resources/whale.png")));
+				wordCloud.setBackground(new CircleBackground(300));
+				wordCloud.setBackground(new PixelBoundryBackground(new FileInputStream("resources/pi.png")));
 				wordCloud.setColorPalette(new ColorPalette(new Color(0x4055F1), new Color(0x408DF1), new Color(0x40AAF1), new Color(0x40C5F1), new Color(0x40D3F1), new Color(0xFFFFFF)));
 				wordCloud.setFontScalar(new SqrtFontScalar(10, 40));
 				wordCloud.build(theWords);
 				wordCloud.writeToFile("NewWhaleWordCloud.png");
 			} else if (photoName.equals("thumbs up")){
-				final Dimension dimension = new Dimension(570, 597);
+				final Dimension dimension = new Dimension(512, 512);
 				final WordCloud wordCloud = new WordCloud(dimension, CollisionMode.PIXEL_PERFECT);
 				wordCloud.setPadding(2);
-				//wordCloud.setBackground(new CircleBackground(300));
-				wordCloud.setBackground(new PixelBoundryBackground(new FileInputStream("resources/thumbsUp.png")));
+				wordCloud.setBackground(new CircleBackground(300));
+				wordCloud.setBackground(new PixelBoundryBackground(new FileInputStream("resources/pi.png")));
 				wordCloud.setColorPalette(new ColorPalette(new Color(0x4055F1), new Color(0x408DF1), new Color(0x40AAF1), new Color(0x40C5F1), new Color(0x40D3F1), new Color(0xFFFFFF)));
 				wordCloud.setFontScalar(new SqrtFontScalar(10, 40));
 				wordCloud.build(theWords);
 				wordCloud.writeToFile("NewThumbsUpWordCloud.png");
 			} else {
-				final Dimension dimension = new Dimension(900, 900);
+				final Dimension dimension = new Dimension(512, 512);
 				final WordCloud wordCloud = new WordCloud(dimension, CollisionMode.PIXEL_PERFECT);
 				wordCloud.setPadding(2);
 				wordCloud.setBackground(new CircleBackground(300));
-				//wordCloud.setBackground(new PixelBoundryBackground(new FileInputStream("resources/pi.png")));
+				wordCloud.setBackground(new PixelBoundryBackground(new FileInputStream("resources/pi.png")));
 				wordCloud.setColorPalette(new ColorPalette(new Color(0x4055F1), new Color(0x408DF1), new Color(0x40AAF1), new Color(0x40C5F1), new Color(0x40D3F1), new Color(0xFFFFFF)));
 				wordCloud.setFontScalar(new SqrtFontScalar(10, 40));
 				wordCloud.build(theWords);
-				wordCloud.writeToFile("NewCircleWordCloud.png");
+				wordCloud.writeToFile("datarank_wordcloud_circle_sqrt_font.png");
 			}
 			//final Dimension dimension = new Dimension(512, 512);
 			/*final WordCloud wordCloud = new WordCloud(dimension, CollisionMode.PIXEL_PERFECT);

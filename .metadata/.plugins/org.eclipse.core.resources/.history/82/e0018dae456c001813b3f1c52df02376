@@ -18,9 +18,6 @@ public class RunGui {
 
 	private JFrame frame;
 	private JTextField txtThisIsThe;
-	private JRadioButton rdbtnCircle;
-	private JRadioButton rdbtnWhale;
-	private JRadioButton rdbtnMountain;
 
 	/**
 	 * Launch the application.
@@ -59,16 +56,11 @@ public class RunGui {
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String someString = txtThisIsThe.getText();
+				
 				int convertedInt = Integer.parseInt(someString);
 				RunProject firstRun = new RunProject();
 				try {
-					if (rdbtnCircle.isSelected()){
-						firstRun.runQuery(convertedInt, "circle");
-					} else if (rdbtnWhale.isSelected()){
-						firstRun.runQuery(convertedInt, "whale");
-					} else if (rdbtnMountain.isSelected()){
-						firstRun.runQuery(convertedInt, "mountain");
-					}
+					firstRun.runQuery(convertedInt);
 				} catch (SQLException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
@@ -94,15 +86,15 @@ public class RunGui {
 		lblSelectNumberOf.setBounds(134, 24, 204, 16);
 		frame.getContentPane().add(lblSelectNumberOf);
 		
-		rdbtnCircle = new JRadioButton("Circle");
+		JRadioButton rdbtnCircle = new JRadioButton("Circle");
 		rdbtnCircle.setBounds(42, 101, 141, 23);
 		frame.getContentPane().add(rdbtnCircle);
 		
-		rdbtnWhale = new JRadioButton("Whale");
+		JRadioButton rdbtnWhale = new JRadioButton("Whale");
 		rdbtnWhale.setBounds(42, 136, 141, 23);
 		frame.getContentPane().add(rdbtnWhale);
 		
-		rdbtnMountain = new JRadioButton("Mountain");
+		JRadioButton rdbtnMountain = new JRadioButton("Mountain");
 		rdbtnMountain.setBounds(42, 171, 141, 23);
 		frame.getContentPane().add(rdbtnMountain);
 	}

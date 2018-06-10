@@ -84,7 +84,7 @@ public class RunProject{
 				final WordCloud wordCloud = new WordCloud(dimension, CollisionMode.PIXEL_PERFECT);
 				wordCloud.setPadding(2);
 				//wordCloud.setBackground(new CircleBackground(300));
-				wordCloud.setBackground(new PixelBoundryBackground(new FileInputStream("resources/mountain.png")));
+				wordCloud.setBackground(new PixelBoundryBackground(new FileInputStream("resources/pi.png")));
 				wordCloud.setColorPalette(new ColorPalette(new Color(0x4055F1), new Color(0x408DF1), new Color(0x40AAF1), new Color(0x40C5F1), new Color(0x40D3F1), new Color(0xFFFFFF)));
 				wordCloud.setFontScalar(new SqrtFontScalar(10, 40));
 				wordCloud.build(theWords);
@@ -94,7 +94,7 @@ public class RunProject{
 				final WordCloud wordCloud = new WordCloud(dimension, CollisionMode.PIXEL_PERFECT);
 				wordCloud.setPadding(2);
 				//wordCloud.setBackground(new CircleBackground(300));
-				wordCloud.setBackground(new PixelBoundryBackground(new FileInputStream("resources/whale.png")));
+				wordCloud.setBackground(new PixelBoundryBackground(new FileInputStream("resources/pi.png")));
 				wordCloud.setColorPalette(new ColorPalette(new Color(0x4055F1), new Color(0x408DF1), new Color(0x40AAF1), new Color(0x40C5F1), new Color(0x40D3F1), new Color(0xFFFFFF)));
 				wordCloud.setFontScalar(new SqrtFontScalar(10, 40));
 				wordCloud.build(theWords);
@@ -104,7 +104,7 @@ public class RunProject{
 				final WordCloud wordCloud = new WordCloud(dimension, CollisionMode.PIXEL_PERFECT);
 				wordCloud.setPadding(2);
 				//wordCloud.setBackground(new CircleBackground(300));
-				wordCloud.setBackground(new PixelBoundryBackground(new FileInputStream("resources/thumbsUp.png")));
+				wordCloud.setBackground(new PixelBoundryBackground(new FileInputStream("resources/pi.png")));
 				wordCloud.setColorPalette(new ColorPalette(new Color(0x4055F1), new Color(0x408DF1), new Color(0x40AAF1), new Color(0x40C5F1), new Color(0x40D3F1), new Color(0xFFFFFF)));
 				wordCloud.setFontScalar(new SqrtFontScalar(10, 40));
 				wordCloud.build(theWords);
